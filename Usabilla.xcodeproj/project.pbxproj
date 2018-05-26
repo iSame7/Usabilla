@@ -97,6 +97,8 @@
 		C505D15920B2FBC700CB1674 /* Usabilla */ = {
 			isa = PBXGroup;
 			children = (
+				C5B3B5DC20B9AE7400553AE5 /* Modules */,
+				C505D18820B2FD3600CB1674 /* Usabilla Base */,
 				C505D15A20B2FBC700CB1674 /* AppDelegate.swift */,
 				C505D15C20B2FBC700CB1674 /* ViewController.swift */,
 				C505D15E20B2FBC700CB1674 /* Main.storyboard */,
@@ -123,6 +125,76 @@
 				C505D17C20B2FBC800CB1674 /* Info.plist */,
 			);
 			path = UsabillaUITests;
+			sourceTree = "<group>";
+		};
+		C505D18820B2FD3600CB1674 /* Usabilla Base */ = {
+			isa = PBXGroup;
+			children = (
+				C505D18920B2FDB100CB1674 /* Networking */,
+			);
+			path = "Usabilla Base";
+			sourceTree = "<group>";
+		};
+		C505D18920B2FDB100CB1674 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C5B3B5DC20B9AE7400553AE5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C5B3B5DD20B9AE9500553AE5 /* Feedback List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C5B3B5DD20B9AE9500553AE5 /* Feedback List */ = {
+			isa = PBXGroup;
+			children = (
+				C5B3B5E220B9AF3400553AE5 /* View */,
+				C5B3B5E120B9AF1300553AE5 /* Builder */,
+				C5B3B5E020B9AF0600553AE5 /* Presenter */,
+				C5B3B5DF20B9AF0000553AE5 /* Interactor */,
+				C5B3B5DE20B9AEF900553AE5 /* Router */,
+			);
+			path = "Feedback List";
+			sourceTree = "<group>";
+		};
+		C5B3B5DE20B9AEF900553AE5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C5B3B5DF20B9AF0000553AE5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C5B3B5E020B9AF0600553AE5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C5B3B5E120B9AF1300553AE5 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		C5B3B5E220B9AF3400553AE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
