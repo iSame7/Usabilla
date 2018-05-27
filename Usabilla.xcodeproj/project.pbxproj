@@ -14,6 +14,14 @@
 		C505D16520B2FBC800CB1674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C505D16320B2FBC800CB1674 /* LaunchScreen.storyboard */; };
 		C505D17020B2FBC800CB1674 /* UsabillaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505D16F20B2FBC800CB1674 /* UsabillaTests.swift */; };
 		C505D17B20B2FBC800CB1674 /* UsabillaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505D17A20B2FBC800CB1674 /* UsabillaUITests.swift */; };
+		C5B3B5E420B9AFC000553AE5 /* FeedbackListViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B3B5E320B9AFC000553AE5 /* FeedbackListViewable.swift */; };
+		C5B3B5E920B9B01D00553AE5 /* FeedbackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B3B5E820B9B01D00553AE5 /* FeedbackViewModel.swift */; };
+		C5B3B5EB20B9B2FC00553AE5 /* FeedbackListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B3B5EA20B9B2FC00553AE5 /* FeedbackListPresenter.swift */; };
+		C5B3B5ED20B9B31D00553AE5 /* FeedbackListPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B3B5EC20B9B31D00553AE5 /* FeedbackListPresentation.swift */; };
+		C5B3B5EF20B9B40E00553AE5 /* FeedbackListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B3B5EE20B9B40E00553AE5 /* FeedbackListInteractor.swift */; };
+		C5B3B5F120B9B41D00553AE5 /* FeedbackListInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B3B5F020B9B41D00553AE5 /* FeedbackListInteractorIO.swift */; };
+		C5B3B5F420B9B44D00553AE5 /* FeedbackListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B3B5F320B9B44D00553AE5 /* FeedbackListService.swift */; };
+		C5B3B5F620B9B45B00553AE5 /* FeedbackListServiceFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B3B5F520B9B45B00553AE5 /* FeedbackListServiceFetching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		C505D17620B2FBC800CB1674 /* UsabillaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsabillaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C505D17A20B2FBC800CB1674 /* UsabillaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsabillaUITests.swift; sourceTree = "<group>"; };
 		C505D17C20B2FBC800CB1674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B3B5E320B9AFC000553AE5 /* FeedbackListViewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackListViewable.swift; sourceTree = "<group>"; };
+		C5B3B5E820B9B01D00553AE5 /* FeedbackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewModel.swift; sourceTree = "<group>"; };
+		C5B3B5EA20B9B2FC00553AE5 /* FeedbackListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackListPresenter.swift; sourceTree = "<group>"; };
+		C5B3B5EC20B9B31D00553AE5 /* FeedbackListPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackListPresentation.swift; sourceTree = "<group>"; };
+		C5B3B5EE20B9B40E00553AE5 /* FeedbackListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackListInteractor.swift; sourceTree = "<group>"; };
+		C5B3B5F020B9B41D00553AE5 /* FeedbackListInteractorIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackListInteractorIO.swift; sourceTree = "<group>"; };
+		C5B3B5F320B9B44D00553AE5 /* FeedbackListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackListService.swift; sourceTree = "<group>"; };
+		C5B3B5F520B9B45B00553AE5 /* FeedbackListServiceFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackListServiceFetching.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +146,7 @@
 		C505D18820B2FD3600CB1674 /* Usabilla Base */ = {
 			isa = PBXGroup;
 			children = (
+				C5B3B5F220B9B44100553AE5 /* Services */,
 				C505D18920B2FDB100CB1674 /* Networking */,
 			);
 			path = "Usabilla Base";
@@ -153,6 +170,7 @@
 		C5B3B5DD20B9AE9500553AE5 /* Feedback List */ = {
 			isa = PBXGroup;
 			children = (
+				C5B3B5E520B9AFF600553AE5 /* ViewModel */,
 				C5B3B5E220B9AF3400553AE5 /* View */,
 				C5B3B5E120B9AF1300553AE5 /* Builder */,
 				C5B3B5E020B9AF0600553AE5 /* Presenter */,
@@ -172,6 +190,8 @@
 		C5B3B5DF20B9AF0000553AE5 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				C5B3B5EE20B9B40E00553AE5 /* FeedbackListInteractor.swift */,
+				C5B3B5F020B9B41D00553AE5 /* FeedbackListInteractorIO.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -179,6 +199,8 @@
 		C5B3B5E020B9AF0600553AE5 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				C5B3B5EA20B9B2FC00553AE5 /* FeedbackListPresenter.swift */,
+				C5B3B5EC20B9B31D00553AE5 /* FeedbackListPresentation.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -193,8 +215,26 @@
 		C5B3B5E220B9AF3400553AE5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C5B3B5E320B9AFC000553AE5 /* FeedbackListViewable.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C5B3B5E520B9AFF600553AE5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C5B3B5E820B9B01D00553AE5 /* FeedbackViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C5B3B5F220B9B44100553AE5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C5B3B5F320B9B44D00553AE5 /* FeedbackListService.swift */,
+				C5B3B5F520B9B45B00553AE5 /* FeedbackListServiceFetching.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +369,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C505D15D20B2FBC700CB1674 /* ViewController.swift in Sources */,
+				C5B3B5E420B9AFC000553AE5 /* FeedbackListViewable.swift in Sources */,
+				C5B3B5F620B9B45B00553AE5 /* FeedbackListServiceFetching.swift in Sources */,
+				C5B3B5ED20B9B31D00553AE5 /* FeedbackListPresentation.swift in Sources */,
 				C505D15B20B2FBC700CB1674 /* AppDelegate.swift in Sources */,
+				C5B3B5E920B9B01D00553AE5 /* FeedbackViewModel.swift in Sources */,
+				C5B3B5F420B9B44D00553AE5 /* FeedbackListService.swift in Sources */,
+				C5B3B5F120B9B41D00553AE5 /* FeedbackListInteractorIO.swift in Sources */,
+				C5B3B5EB20B9B2FC00553AE5 /* FeedbackListPresenter.swift in Sources */,
+				C5B3B5EF20B9B40E00553AE5 /* FeedbackListInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
